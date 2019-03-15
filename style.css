@@ -76,7 +76,7 @@ user-select:all;
   font-size:.8em;
 transition:1s;
 padding:.5em 1em;
-
+z-index:4;
 }
 .info a{
   text-decoration:none;
