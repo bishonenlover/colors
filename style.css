@@ -73,14 +73,14 @@ user-select:all;
   position:fixed;
   top:5px;
   right:5px;
-  font-size:.8em;
-transition:1s;
-padding:.5em 1em;
+ transition:1s;
 z-index:4;
 }
 .info a{
   text-decoration:none;
   color:#444;
+ padding:.5em 1em;
+  font-size:.8em;
  
 }
 .info:hover{
