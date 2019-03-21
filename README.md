@@ -6,4 +6,4 @@ A simple grid page with copyable colors hexadecimal and rgb colors.<p>
   
   ------ ☆ ------
   
-  Credits for the <b>copy to clipboard</b> plugin to <a href="https://github.com/milankyncl/jquery-copy-to-clipboard" target="_blank">milankyncl</a>. I've just added a kind of popup message, telling the color was copied.
+  Credits for the <b>copy to clipboard</b> plugin to <a href="https://github.com/milankyncl/jquery-copy-to-clipboard" target="_blank">milankyncl</a>. <p>I've just added a kind of popup message, telling the color was copied.
