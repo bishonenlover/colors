@@ -111,7 +111,7 @@ box-shadow:0 0 20px rgba(0,0,0,0.09);
 .copied span{
 background:pink;
 padding:.2em .6em;
- cursor:pointer; 
+ cursor:url(https://i.imgur.com/0Me0mof.png),progress!important;
 margin:0 .3em;
 }
 @media(max-width:320px){
