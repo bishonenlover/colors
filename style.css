@@ -91,6 +91,8 @@ background:thistle;
 
 
 .copied{
+ display:none;
+ z-index:9;
  position:fixed;
 padding:2em;
 width:140px;
