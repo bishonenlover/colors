@@ -1726,9 +1726,19 @@ $(document).ready(function() {
  $('.hex, .rgba').click(function(){
         $(this).CopyToClipboard();
     });
+
+ $('.hex, .rgba').click(function(){
+ $('.copied').fadeIn(1);
+
+});
+ $('.copied span').click(function(){
+ $('.copied').fadeOut(1);
+
+});
+
 });
 </script>
-   </body>
+   
    </body>
 
 </html>
