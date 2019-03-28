@@ -1,13 +1,15 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <title>My Fave Colors</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-	<script type="text/javascript" src="https://milankyncl.github.io/jquery-copy-to-clipboard/jquery.copy-to-clipboard.js"></script>
 <link rel="stylesheet" href="style.css">
  <link rel="shortcut icon" href="https://i.imgur.com/5J0SfIs.png"/><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<style>
+
+</style>
 <body>
 <div class="info">
   <a href="https://todorokiscute.tumblr.com" target="_blank">Go Back!</a>
@@ -23,8 +25,8 @@ Copied! <span>x</span>
   <!-- color content -->
   <div class="box" style="background:#e6e6fa">
     <span class="name">Lavender</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e6e6fa</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(230, 230, 250)</span>
+<span class="hex" onclick="copy(this)">#e6e6fa</span>
+        <span class="rgba" onclick="copy(this)">(230, 230, 250)</span>
   </div>
   
 
@@ -32,185 +34,185 @@ Copied! <span>x</span>
   <!-- color content -->
   <div class="box" style="background:#f5ecf9">
     <span class="name">Lilac</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f5ecf9</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(245, 236, 249)</span>
+<span class="hex"  onclick="copy(this)">#f5ecf9</span>
+        <span class="rgba"  onclick="copy(this)">(245, 236, 249)</span>
   </div>
   
   <!-- color content -->
   <div class="box" style="background:#fee9f4">
     <span class="name">Soft Pink</span>
-<span class="hex" data-clipboard-text="Text to copy." >#fee9f4</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(254, 233, 244)</span>
+<span class="hex"  onclick="copy(this)" >#fee9f4</span>
+        <span class="rgba"  onclick="copy(this)">(254, 233, 244)</span>
   </div>
   
     <!-- color content -->
   <div class="box" style="background:#edfad1">
     <span class="name">Soft Green</span>
-<span class="hex" data-clipboard-text="Text to copy." >#edfad1</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(237, 250, 209)</span>
+<span class="hex"  onclick="copy(this)" >#edfad1</span>
+        <span class="rgba"  onclick="copy(this)">(237, 250, 209)</span>
   </div>
   
     
   <!-- color content -->
   <div class="box" style="background: #fbe6d0">
     <span class="name">Soft Orange</span>
-<span class="hex" data-clipboard-text="Text to copy." >#fbe6d0</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(251, 230, 208)</span>
+<span class="hex"  onclick="copy(this)" >#fbe6d0</span>
+        <span class="rgba"  onclick="copy(this)">(251, 230, 208)</span>
   </div>
   
   <!-- color content -->
   <div class="box" style="background: #fcddda">
     <span class="name">Cute Peach</span>
-<span class="hex" data-clipboard-text="Text to copy." >#fcddda</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(252, 221, 218)</span>
+<span class="hex"  onclick="copy(this)" >#fcddda</span>
+        <span class="rgba"  onclick="copy(this)">(252, 221, 218)</span>
   </div>
   
    <!-- color content -->
   <div class="box" style="background:pink">
     <span class="name">Pink</span>
-<span class="hex" data-clipboard-text="Text to copy." >#ffc0cb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 192, 203)</span>
+<span class="hex"  onclick="copy(this)" >#ffc0cb</span>
+        <span class="rgba"  onclick="copy(this)">(255, 192, 203)</span>
   </div>
   
   <!-- color content -->
   <div class="box" style="background: lightcoral">
     <span class="name">Light Coral</span>
-<span class="hex" data-clipboard-text="Text to copy." >#f08080</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(240, 128, 128)</span>
+<span class="hex"  onclick="copy(this)" >#f08080</span>
+        <span class="rgba"  onclick="copy(this)">(240, 128, 128)</span>
   </div>
 
   <!-- color content -->
   <div class="box" style="background:#facada">
     <span class="name">Facada</span>
-<span class="hex" data-clipboard-text="Text to copy." >#facada</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(250, 202, 218)</span>
+<span class="hex"  onclick="copy(this)" >#facada</span>
+        <span class="rgba"  onclick="copy(this)">(250, 202, 218)</span>
   </div>
   
    <!-- color content -->
   <div class="box" style="background:thistle">
     <span class="name">Thistle</span>
-<span class="hex" data-clipboard-text="Text to copy." >#d8bfd8</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(216, 191, 216)</span>
+<span class="hex"  onclick="copy(this)" >#d8bfd8</span>
+        <span class="rgba"  onclick="copy(this)">(216, 191, 216)</span>
   </div>
   
   <!-- color content -->
   <div class="box" style="background:bisque">
     <span class="name">Bisque</span>
-<span class="hex" data-clipboard-text="Text to copy." >#ffe4c4</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 228, 196)</span>
+<span class="hex"  onclick="copy(this)" >#ffe4c4</span>
+        <span class="rgba"  onclick="copy(this)">(255, 228, 196)</span>
   </div>
   
    <!-- color content -->
   <div class="box" style="background:#e9e0eb">
     <span class="name">Soft Thistle</span>
-<span class="hex" data-clipboard-text="Text to copy." >#e9e0eb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(233, 224, 235)</span>
+<span class="hex"  onclick="copy(this)" >#e9e0eb</span>
+        <span class="rgba"  onclick="copy(this)">(233, 224, 235)</span>
   </div>
   
   
   <!-- color content -->
   <div class="box" style="background:AliceBlue">
     <span class="name">AliceBlue </span>
-<span class="hex" data-clipboard-text="Text to copy." >#f0f8ff</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(	240,248,255)</span>
+<span class="hex"  onclick="copy(this)" >#f0f8ff</span>
+        <span class="rgba"  onclick="copy(this)">(	240,248,255)</span>
   </div>
   
   
   <!-- color content -->
   <div class="box" style="background:AntiqueWhite">
     <span class="name">Antique White </span>
-<span class="hex" data-clipboard-text="Text to copy." >#faebd7</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(250,235,215)</span>
+<span class="hex"  onclick="copy(this)" >#faebd7</span>
+        <span class="rgba"  onclick="copy(this)">(250,235,215)</span>
   </div>
   
    <!-- color content -->
   <div class="box" style="background:floralwhite">
     <span class="name">Floral White </span>
-<span class="hex" data-clipboard-text="Text to copy." >#fffaf0</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 250, 240)</span>
+<span class="hex"  onclick="copy(this)" >#fffaf0</span>
+        <span class="rgba"  onclick="copy(this)">(255, 250, 240)</span>
   </div>
   
     <!-- color content -->
   <div class="box" style="background:ghostwhite">
     <span class="name">Ghost White </span>
-<span class="hex" data-clipboard-text="Text to copy." >#f8f8ff</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(248, 248, 255)</span>
+<span class="hex"  onclick="copy(this)" >#f8f8ff</span>
+        <span class="rgba"  onclick="copy(this)">(248, 248, 255)</span>
   </div>
   
   
       <!-- color content -->
   <div class="box" style="background:lavenderblush">
     <span class="name">Ghost White </span>
-<span class="hex" data-clipboard-text="Text to copy." >#fff0f5</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 240, 245)</span>
+<span class="hex"  onclick="copy(this)" >#fff0f5</span>
+        <span class="rgba"  onclick="copy(this)">(255, 240, 245)</span>
   </div>
   
   
     <!-- color content -->
   <div class="box" style="background:lemonchiffon">
     <span class="name">Lemon Chiffon</span>
-<span class="hex" data-clipboard-text="Text to copy." >#fffacd</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 250, 205)</span>
+<span class="hex"  onclick="copy(this)" >#fffacd</span>
+        <span class="rgba"  onclick="copy(this)">(255, 250, 205)</span>
   </div>
   
    <!-- color content -->
   <div class="box" style="background:lightpink">
     <span class="name">Light Pink</span>
-<span class="hex" data-clipboard-text="Text to copy." >#ffb6c1</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 182, 193)</span>
+<span class="hex"  onclick="copy(this)" >#ffb6c1</span>
+        <span class="rgba"  onclick="copy(this)">(255, 182, 193)</span>
   </div>
   
    <!-- color content -->
   <div class="box" style="background:lightsalmon">
     <span class="name">Light Salmon</span>
-<span class="hex" data-clipboard-text="Text to copy." >#ffa07a</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 160, 122)</span>
+<span class="hex"  onclick="copy(this)" >#ffa07a</span>
+        <span class="rgba"  onclick="copy(this)">(255, 160, 122)</span>
   </div>
   
   <!-- color content -->
   <div class="box" style="background:palegreen">
     <span class="name">Pale Green</span>
-<span class="hex" data-clipboard-text="Text to copy." >#98fb98</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(152, 251, 152)</span>
+<span class="hex"  onclick="copy(this)" >#98fb98</span>
+        <span class="rgba"  onclick="copy(this)">(152, 251, 152)</span>
   </div>
 
   
     <!-- color content -->
   <div class="box" style="background:lightblue">
     <span class="name">Light Blue</span>
-<span class="hex" data-clipboard-text="Text to copy." >#add8e6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(173, 216, 230)</span>
+<span class="hex"  onclick="copy(this)" >#add8e6</span>
+        <span class="rgba"  onclick="copy(this)">(173, 216, 230)</span>
   </div>
 
   
     <!-- color content -->
   <div class="box" style="background:linen">
     <span class="name">Linen</span>
-<span class="hex" data-clipboard-text="Text to copy." >
+<span class="hex"  onclick="copy(this)" >
 #faf0e6
 </span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(250, 240, 230)</span>
+        <span class="rgba"  onclick="copy(this)">(250, 240, 230)</span>
   </div>
 
   <!-- color content -->
   <div class="box" style="background:mintcream">
     <span class="name">Mint Cream</span>
-<span class="hex" data-clipboard-text="Text to copy." >#f5fffa</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(245, 255, 250)</span>
+<span class="hex"  onclick="copy(this)" >#f5fffa</span>
+        <span class="rgba"  onclick="copy(this)">(245, 255, 250)</span>
   </div>
   
    <!-- color content -->
   <div class="box" style="background:oldlace">
     <span class="name">Oldlace</span>
-<span class="hex" data-clipboard-text="Text to copy." >#fdf5e6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(253, 245, 230)</span>
+<span class="hex"  onclick="copy(this)" >#fdf5e6</span>
+        <span class="rgba"  onclick="copy(this)">(253, 245, 230)</span>
   </div>
   
      <!-- color content -->
   <div class="box" style="background:snow">
     <span class="name">Snow</span>
-<span class="hex" data-clipboard-text="Text to copy." >#fffafa</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 250, 250)</span>
+<span class="hex"  onclick="copy(this)" >#fffafa</span>
+        <span class="rgba"  onclick="copy(this)">(255, 250, 250)</span>
   </div>
   
   
@@ -218,29 +220,29 @@ Copied! <span>x</span>
    <!-- color content -->
   <div class="box" style="background:whitesmoke">
     <span class="name">White Smoke</span>
-<span class="hex" data-clipboard-text="Text to copy." >#f5f5f5</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(245, 245, 245)</span>
+<span class="hex"  onclick="copy(this)" >#f5f5f5</span>
+        <span class="rgba"  onclick="copy(this)">(245, 245, 245)</span>
   </div>
   
      <!-- color content -->
   <div class="box" style="background:plum">
     <span class="name">Plum</span>
-<span class="hex" data-clipboard-text="Text to copy." >#dda0dd</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(221, 160, 221)</span>
+<span class="hex"  onclick="copy(this)" >#dda0dd</span>
+        <span class="rgba"  onclick="copy(this)">(221, 160, 221)</span>
   </div>
 
     <!-- color content -->
   <div class="box" style="background:mistyrose">
     <span class="name">Misty Rose</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffe4e1</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 228, 225)</span>
+<span class="hex"  onclick="copy(this)">#ffe4e1</span>
+        <span class="rgba"  onclick="copy(this)">(255, 228, 225)</span>
    </div>
 
    <!-- color content -->
   <div class="box" style="background:honeydew">
     <span class="name">Honey Dew</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f0fff0</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(240, 255, 240)</span>
+<span class="hex"  onclick="copy(this)">#f0fff0</span>
+        <span class="rgba"  onclick="copy(this)">(240, 255, 240)</span>
 
   </div>
   
@@ -250,16 +252,16 @@ Copied! <span>x</span>
    <!-- color content -->
   <div class="box" style="background:#eaa8a8">
     <span class="name">Some Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#eaa8a8</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(234, 168, 168)</span>
+<span class="hex"  onclick="copy(this)">#eaa8a8</span>
+        <span class="rgba"  onclick="copy(this)">(234, 168, 168)</span>
 
   </div>
   
    <!-- color content -->
   <div class="box" style="background:#f0d9d0">
     <span class="name">Light Brown</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f0d9d0</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(240, 217, 208)</span>
+<span class="hex"  onclick="copy(this)">#f0d9d0</span>
+        <span class="rgba"  onclick="copy(this)">(240, 217, 208)</span>
 
   </div>
   
@@ -267,8 +269,8 @@ Copied! <span>x</span>
      <!-- color content -->
   <div class="box" style="background:#fbf2f2">
     <span class="name">Light Beige</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fbf2f2</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(251, 242, 242)</span>
+<span class="hex"  onclick="copy(this)">#fbf2f2</span>
+        <span class="rgba"  onclick="copy(this)">(251, 242, 242)</span>
 
   </div>
   
@@ -277,16 +279,16 @@ Copied! <span>x</span>
      <!-- color content -->
   <div class="box" style="background:#ffddb0">
     <span class="name">Light orange</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffddb0</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 221, 176)</span>
+<span class="hex"  onclick="copy(this)">#ffddb0</span>
+        <span class="rgba"  onclick="copy(this)">(255, 221, 176)</span>
 
   </div>
   
      <!-- color content -->
   <div class="box" style="background:#d1ebfa">
     <span class="name">Soft Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#d1ebfa</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(209, 235, 250)</span>
+<span class="hex"  onclick="copy(this)">#d1ebfa</span>
+        <span class="rgba"  onclick="copy(this)">(209, 235, 250)</span>
 
   </div>
   
@@ -294,32 +296,32 @@ Copied! <span>x</span>
      <!-- color content -->
   <div class="box" style="background:#e2ffb5">
     <span class="name">Soft Green</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e2ffb5</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(226, 255, 181)</span>
+<span class="hex"  onclick="copy(this)">#e2ffb5</span>
+        <span class="rgba"  onclick="copy(this)">(226, 255, 181)</span>
 
   </div>
 
     <!-- color content -->
   <div class="box" style="background:#fcc9d8">
     <span class="name">Strawberry Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fcc9d8</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(252, 201, 216)</span>
+<span class="hex"  onclick="copy(this)">#fcc9d8</span>
+        <span class="rgba"  onclick="copy(this)">(252, 201, 216)</span>
 
   </div>
 
     <!-- color content -->
   <div class="box" style="background:#eed4fc">
     <span class="name">Light Lilac</span>
-<span class="hex" data-clipboard-text="Text to copy.">#eed4fc</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(238, 212, 252)</span>
+<span class="hex"  onclick="copy(this)">#eed4fc</span>
+        <span class="rgba"  onclick="copy(this)">(238, 212, 252)</span>
 
   </div>
 
     <!-- color content -->
   <div class="box" style="background:#fcebd5">
     <span class="name"> Softer Orange</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fcebd5</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(252, 235, 213)</span>
+<span class="hex"  onclick="copy(this)">#fcebd5</span>
+        <span class="rgba"  onclick="copy(this)">(252, 235, 213)</span>
 
   </div>
 
@@ -327,8 +329,8 @@ Copied! <span>x</span>
     <!-- color content -->
   <div class="box" style="background:#bbe4d0">
     <span class="name">Turquoise</span>
-<span class="hex" data-clipboard-text="Text to copy.">#bbe4d0</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(187, 228, 208)</span>
+<span class="hex"  onclick="copy(this)">#bbe4d0</span>
+        <span class="rgba"  onclick="copy(this)">(187, 228, 208)</span>
 
   </div>
 
@@ -336,8 +338,8 @@ Copied! <span>x</span>
    <!-- color content -->
   <div class="box" style="background:#ffebf2">
     <span class="name">Lighter Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffebf2</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 235, 242)</span>
+<span class="hex"  onclick="copy(this)">#ffebf2</span>
+        <span class="rgba"  onclick="copy(this)">(255, 235, 242)</span>
 
   </div>
 
@@ -345,8 +347,8 @@ Copied! <span>x</span>
   <!-- color content -->
   <div class="box" style="background:#ffb1cc">
     <span class="name">Darker Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffb1cc</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 177, 204)</span>
+<span class="hex"  onclick="copy(this)">#ffb1cc</span>
+        <span class="rgba"  onclick="copy(this)">(255, 177, 204)</span>
 
   </div>
 
@@ -354,8 +356,8 @@ Copied! <span>x</span>
   <!-- color content -->
   <div class="box" style="background:#c1a6c1">
     <span class="name">Dark Lilac</span>
-<span class="hex" data-clipboard-text="Text to copy.">#c1a6c1</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(193, 166, 193)</span>
+<span class="hex"  onclick="copy(this)">#c1a6c1</span>
+        <span class="rgba"  onclick="copy(this)">(193, 166, 193)</span>
 
   </div>
 
@@ -363,8 +365,8 @@ Copied! <span>x</span>
   <!-- color content -->
   <div class="box" style="background:#ffddb0">
     <span class="name">Other Orange</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffddb0</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 221, 176)</span>
+<span class="hex"  onclick="copy(this)">#ffddb0</span>
+        <span class="rgba"  onclick="copy(this)">(255, 221, 176)</span>
 
   </div>
 
@@ -374,8 +376,8 @@ Copied! <span>x</span>
   <!-- color content -->
   <div class="box" style="background:#e4ffcd">
     <span class="name">Light Green</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e4ffcd</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(228, 255, 205)</span>
+<span class="hex"  onclick="copy(this)">#e4ffcd</span>
+        <span class="rgba"  onclick="copy(this)">(228, 255, 205)</span>
 
   </div>
 
@@ -383,8 +385,8 @@ Copied! <span>x</span>
  <!-- color content -->
   <div class="box" style="background:#d79b96">
     <span class="name">Brownish</span>
-<span class="hex" data-clipboard-text="Text to copy.">#d79b96</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(215, 155, 150)</span>
+<span class="hex"  onclick="copy(this)">#d79b96</span>
+        <span class="rgba"  onclick="copy(this)">(215, 155, 150)</span>
 
   </div>
 
@@ -392,32 +394,32 @@ Copied! <span>x</span>
  <!-- color content -->
   <div class="box" style="background:#96ca87">
     <span class="name">Dark Green</span>
-<span class="hex" data-clipboard-text="Text to copy.">#96ca87</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(150, 202, 135)</span>
+<span class="hex"  onclick="copy(this)">#96ca87</span>
+        <span class="rgba"  onclick="copy(this)">(150, 202, 135)</span>
 
   </div>
 
  <!-- color content -->
   <div class="box" style="background:#f4e997">
     <span class="name">Dark Yellow</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f4e997</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(244, 233, 151)</span>
+<span class="hex"  onclick="copy(this)">#f4e997</span>
+        <span class="rgba"  onclick="copy(this)">(244, 233, 151)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#eed2d5">
     <span class="name">Brownish Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#eed2d5</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(238, 210, 213)</span>
+<span class="hex"  onclick="copy(this)">#eed2d5</span>
+        <span class="rgba"  onclick="copy(this)">(238, 210, 213)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#fbecec">
     <span class="name">Ligher Red</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fbecec</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(251, 236, 236)</span>
+<span class="hex"  onclick="copy(this)">#fbecec</span>
+        <span class="rgba"  onclick="copy(this)">(251, 236, 236)</span>
 
   </div>
 
@@ -425,24 +427,24 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#d1e0fb">
     <span class="name">Ligher Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#d1e0fb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(209, 224, 251)</span>
+<span class="hex"  onclick="copy(this)">#d1e0fb</span>
+        <span class="rgba"  onclick="copy(this)">(209, 224, 251)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#dbc5f0">
     <span class="name">Another Lilac</span>
-<span class="hex" data-clipboard-text="Text to copy.">#dbc5f0</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(219, 197, 240)</span>
+<span class="hex"  onclick="copy(this)">#dbc5f0</span>
+        <span class="rgba"  onclick="copy(this)">(219, 197, 240)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ffd9b1">
     <span class="name">Another Orange</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffd9b1</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(219, 197, 240)</span>
+<span class="hex"  onclick="copy(this)">#ffd9b1</span>
+        <span class="rgba"  onclick="copy(this)">(219, 197, 240)</span>
 
   </div>
 
@@ -450,8 +452,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#d1e1fc">
     <span class="name">Another Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#d1e1fc</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(209, 225, 252)</span>
+<span class="hex"  onclick="copy(this)">#d1e1fc</span>
+        <span class="rgba"  onclick="copy(this)">(209, 225, 252)</span>
 
   </div>
 
@@ -459,24 +461,24 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#ccb1b8">
     <span class="name">Another Lilac</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ccb1b8</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(204, 177, 184)</span>
+<span class="hex"  onclick="copy(this)">#ccb1b8</span>
+        <span class="rgba"  onclick="copy(this)">(204, 177, 184)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#e2d1d7">
     <span class="name">  Lilac Light</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e2d1d7</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(226, 209, 215)</span>
+<span class="hex"  onclick="copy(this)">#e2d1d7</span>
+        <span class="rgba"  onclick="copy(this)">(226, 209, 215)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#e3e7ff">
     <span class="name">Blue Light</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e3e7ff</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(227, 231, 255)</span>
+<span class="hex"  onclick="copy(this)">#e3e7ff</span>
+        <span class="rgba"  onclick="copy(this)">(227, 231, 255)</span>
 
   </div>
 
@@ -484,8 +486,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#fce3ec">
     <span class="name">Pink Light</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fce3ec</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(252, 227, 236)</span>
+<span class="hex"  onclick="copy(this)">#fce3ec</span>
+        <span class="rgba"  onclick="copy(this)">(252, 227, 236)</span>
 
   </div>
 
@@ -493,8 +495,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#d9cacc">
     <span class="name">Awesome Lilac</span>
-<span class="hex" data-clipboard-text="Text to copy.">#d9cacc</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(217, 202, 204)</span>
+<span class="hex"  onclick="copy(this)">#d9cacc</span>
+        <span class="rgba"  onclick="copy(this)">(217, 202, 204)</span>
 
   </div>
 
@@ -502,8 +504,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#ff6f61">
     <span class="name">Living Coral</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ff6f61</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 111, 97)</span>
+<span class="hex"  onclick="copy(this)">#ff6f61</span>
+        <span class="rgba"  onclick="copy(this)">(255, 111, 97)</span>
 
   </div>
 
@@ -511,8 +513,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#eed2db">
     <span class="name">Brownish Pink 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#eed2db</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(238, 210, 219)</span>
+<span class="hex"  onclick="copy(this)">#eed2db</span>
+        <span class="rgba"  onclick="copy(this)">(238, 210, 219)</span>
 
   </div>
 
@@ -521,24 +523,24 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#ffe6ee">
     <span class="name">Light pink 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffe6ee</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 230, 238)</span>
+<span class="hex"  onclick="copy(this)">#ffe6ee</span>
+        <span class="rgba"  onclick="copy(this)">(255, 230, 238)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#f6d3d5">
     <span class="name">Brown Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f6d3d5</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(246, 211, 213)</span>
+<span class="hex"  onclick="copy(this)">#f6d3d5</span>
+        <span class="rgba"  onclick="copy(this)">(246, 211, 213)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ece6e6">
     <span class="name">Another grey</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ece6e6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(236, 230, 230)</span>
+<span class="hex"  onclick="copy(this)">#ece6e6</span>
+        <span class="rgba"  onclick="copy(this)">(236, 230, 230)</span>
 
   </div>
   
@@ -546,8 +548,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#f9878f">
     <span class="name">Pinkish Red</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f9878f</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(249, 135, 143)</span>
+<span class="hex"  onclick="copy(this)">#f9878f</span>
+        <span class="rgba"  onclick="copy(this)">(249, 135, 143)</span>
 
   </div>
   
@@ -555,8 +557,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#feaeba">
     <span class="name">Pinkish Red 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#feaeba</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(254, 174, 186)</span>
+<span class="hex"  onclick="copy(this)">#feaeba</span>
+        <span class="rgba"  onclick="copy(this)">(254, 174, 186)</span>
 
   </div>
 
@@ -565,8 +567,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#f3e6e6">
     <span class="name">Another Grey 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f3e6e6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(243, 230, 230)</span>
+<span class="hex"  onclick="copy(this)">#f3e6e6</span>
+        <span class="rgba"  onclick="copy(this)">(243, 230, 230)</span>
 
   </div>
 
@@ -574,8 +576,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#f6dddd">
     <span class="name">Brown Orange</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f6dddd</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(246, 221, 221)</span>
+<span class="hex"  onclick="copy(this)">#f6dddd</span>
+        <span class="rgba"  onclick="copy(this)">(246, 221, 221)</span>
 
   </div>
 
@@ -583,8 +585,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#f5cbbf">
     <span class="name">Brown Orange 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f5cbbf</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(245, 203, 191)</span>
+<span class="hex"  onclick="copy(this)">#f5cbbf</span>
+        <span class="rgba"  onclick="copy(this)">(245, 203, 191)</span>
 
   </div>
 
@@ -592,8 +594,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#f9a3be">
     <span class="name">Strong Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f9a3be</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(249, 163, 190)</span>
+<span class="hex"  onclick="copy(this)">#f9a3be</span>
+        <span class="rgba"  onclick="copy(this)">(249, 163, 190)</span>
 
   </div>
 
@@ -603,8 +605,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#fef3f7">
     <span class="name">Light light Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fef3f7</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(254, 243, 247)</span>
+<span class="hex"  onclick="copy(this)">#fef3f7</span>
+        <span class="rgba"  onclick="copy(this)">(254, 243, 247)</span>
 
   </div>
 
@@ -612,8 +614,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#c2d6f0">
     <span class="name">Cute blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#c2d6f0</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(194, 214, 240)</span>
+<span class="hex"  onclick="copy(this)">#c2d6f0</span>
+        <span class="rgba"  onclick="copy(this)">(194, 214, 240)</span>
 
   </div>
 
@@ -622,8 +624,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#d4cbed">
     <span class="name">Cute Purple</span>
-<span class="hex" data-clipboard-text="Text to copy.">#d4cbed</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(212, 203, 237)</span>
+<span class="hex"  onclick="copy(this)">#d4cbed</span>
+        <span class="rgba"  onclick="copy(this)">(212, 203, 237)</span>
 
   </div>
 
@@ -632,24 +634,24 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#d9afd9">
     <span class="name">Another Purple</span>
-<span class="hex" data-clipboard-text="Text to copy.">#d9afd9</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(217, 175, 217)</span>
+<span class="hex"  onclick="copy(this)">#d9afd9</span>
+        <span class="rgba"  onclick="copy(this)">(217, 175, 217)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#fca9a2">
     <span class="name">Orange Peach</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fca9a2</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(252, 169, 162)</span>
+<span class="hex"  onclick="copy(this)">#fca9a2</span>
+        <span class="rgba"  onclick="copy(this)">(252, 169, 162)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ffcba6">
     <span class="name">Orange second</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffcba6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 203, 166)</span>
+<span class="hex"  onclick="copy(this)">#ffcba6</span>
+        <span class="rgba"  onclick="copy(this)">(255, 203, 166)</span>
 
   </div>
 
@@ -657,24 +659,24 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#f8a096">
     <span class="name">Salmon</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f8a096</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(248, 160, 150)</span>
+<span class="hex"  onclick="copy(this)">#f8a096</span>
+        <span class="rgba"  onclick="copy(this)">(248, 160, 150)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#f6e3e3">
     <span class="name">Light Salmon</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f6e3e3</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(246, 227, 227)</span>
+<span class="hex"  onclick="copy(this)">#f6e3e3</span>
+        <span class="rgba"  onclick="copy(this)">(246, 227, 227)</span>
 
   </div>
 
  <!-- color content -->
   <div class="box" style="background:#ffbbd6">
     <span class="name">Strong Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffbbd6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 187, 214)</span>
+<span class="hex"  onclick="copy(this)">#ffbbd6</span>
+        <span class="rgba"  onclick="copy(this)">(255, 187, 214)</span>
 
   </div>
 
@@ -682,24 +684,24 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#ffcce7">
     <span class="name">Ice Cream Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffcce7</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 204, 231)</span>
+<span class="hex"  onclick="copy(this)">#ffcce7</span>
+        <span class="rgba"  onclick="copy(this)">(255, 204, 231)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#f5dffb">
     <span class="name">Light light lilac</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f5dffb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(245, 223, 251)</span>
+<span class="hex"  onclick="copy(this)">#f5dffb</span>
+        <span class="rgba"  onclick="copy(this)">(245, 223, 251)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#b2deff ">
     <span class="name">Popsicle Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#b2deff</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(178, 222, 255)</span>
+<span class="hex"  onclick="copy(this)">#b2deff</span>
+        <span class="rgba"  onclick="copy(this)">(178, 222, 255)</span>
 
   </div>
 
@@ -707,8 +709,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#ff8a97">
     <span class="name">Red-ish Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ff8a97</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 138, 151)</span>
+<span class="hex"  onclick="copy(this)">#ff8a97</span>
+        <span class="rgba"  onclick="copy(this)">(255, 138, 151)</span>
 
   </div>
  
@@ -716,24 +718,24 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#aab3ff">
     <span class="name">Strong Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#aab3ff</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(170, 179, 255)</span>
+<span class="hex"  onclick="copy(this)">#aab3ff</span>
+        <span class="rgba"  onclick="copy(this)">(170, 179, 255)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#f5dae4">
     <span class="name">Other Pink Light</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f5dae4</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(245, 218, 228)</span>
+<span class="hex"  onclick="copy(this)">#f5dae4</span>
+        <span class="rgba"  onclick="copy(this)">(245, 218, 228)</span>
 
   </div>
 
  <!-- color content -->
   <div class="box" style="background:#fca16c">
     <span class="name">Papaya</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fca16c</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(252, 161, 108)</span>
+<span class="hex"  onclick="copy(this)">#fca16c</span>
+        <span class="rgba"  onclick="copy(this)">(252, 161, 108)</span>
 
   </div>
 
@@ -741,32 +743,32 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#fa909c">
     <span class="name">Conch Shell</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fa909c</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(250, 144, 156)</span>
+<span class="hex"  onclick="copy(this)">#fa909c</span>
+        <span class="rgba"  onclick="copy(this)">(250, 144, 156)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ffb0bb">
     <span class="name">C. Shell Light</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffb0bb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 176, 187)</span>
+<span class="hex"  onclick="copy(this)">#ffb0bb</span>
+        <span class="rgba"  onclick="copy(this)">(255, 176, 187)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ffc2a2">
     <span class="name">Other Orange</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffc2a2</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 194, 162)</span>
+<span class="hex"  onclick="copy(this)">#ffc2a2</span>
+        <span class="rgba"  onclick="copy(this)">(255, 194, 162)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ededfb">
     <span class="name">Light Lavender</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ededfb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(237, 237, 251)</span>
+<span class="hex"  onclick="copy(this)">#ededfb</span>
+        <span class="rgba"  onclick="copy(this)">(237, 237, 251)</span>
 
   </div>
 
@@ -774,8 +776,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#f3f0f3">
     <span class="name">Light Thistle</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f3f0f3</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(243, 240, 243)</span>
+<span class="hex"  onclick="copy(this)">#f3f0f3</span>
+        <span class="rgba"  onclick="copy(this)">(243, 240, 243)</span>
 
   </div>
 
@@ -783,15 +785,15 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#fef3f7">
     <span class="name">Lighter Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fef3f7</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(254, 243, 247)</span>
+<span class="hex"  onclick="copy(this)">#fef3f7</span>
+        <span class="rgba"  onclick="copy(this)">(254, 243, 247)</span>
 
   </div>
 <!-- color content -->
   <div class="box" style="background:#f3f3fe">
     <span class="name">Lighter Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f3f3fe</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(243, 243, 254)</span>
+<span class="hex"  onclick="copy(this)">#f3f3fe</span>
+        <span class="rgba"  onclick="copy(this)">(243, 243, 254)</span>
 
   </div>
 
@@ -799,76 +801,76 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#e7f7bd">
     <span class="name">Light Green</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e7f7bd</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(231, 247, 189)</span>
+<span class="hex"  onclick="copy(this)">#e7f7bd</span>
+        <span class="rgba"  onclick="copy(this)">(231, 247, 189)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ffb0cb">
     <span class="name">Ice Cream Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffb0cb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 176, 203)</span>
+<span class="hex"  onclick="copy(this)">#ffb0cb</span>
+        <span class="rgba"  onclick="copy(this)">(255, 176, 203)</span>
 
   </div>
 <!-- color content -->
   <div class="box" style="background:#e7fad3">
     <span class="name">Light Green 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e7fad3</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(231, 250, 211)</span>
+<span class="hex"  onclick="copy(this)">#e7fad3</span>
+        <span class="rgba"  onclick="copy(this)">(231, 250, 211)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#c0eaff">
     <span class="name">Popsicle Blue 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#c0eaff</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(192, 234, 255)</span>
+<span class="hex"  onclick="copy(this)">#c0eaff</span>
+        <span class="rgba"  onclick="copy(this)">(192, 234, 255)</span>
 
   </div>
 <!-- color content -->
   <div class="box" style="background:#fecad4">
     <span class="name">Other Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fecad4</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(254, 202, 212)</span>
+<span class="hex"  onclick="copy(this)">#fecad4</span>
+        <span class="rgba"  onclick="copy(this)">(254, 202, 212)</span>
 
   </div>
 <!-- color content -->
   <div class="box" style="background:#ffeaea">
     <span class="name">Red-ish Pink 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffeaea</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 234, 234)</span>
+<span class="hex"  onclick="copy(this)">#ffeaea</span>
+        <span class="rgba"  onclick="copy(this)">(255, 234, 234)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#e7a3a4">
     <span class="name">Light Brownish</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e7a3a4</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(231, 163, 164)</span>
+<span class="hex"  onclick="copy(this)">#e7a3a4</span>
+        <span class="rgba"  onclick="copy(this)">(231, 163, 164)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ea9aa8">
     <span class="name">Some Pink 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ea9aa8</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(234, 154, 168)</span>
+<span class="hex"  onclick="copy(this)">#ea9aa8</span>
+        <span class="rgba"  onclick="copy(this)">(234, 154, 168)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ffb0bb">
     <span class="name">Some Pink 3</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffb0bb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 176, 187)</span>
+<span class="hex"  onclick="copy(this)">#ffb0bb</span>
+        <span class="rgba"  onclick="copy(this)">(255, 176, 187)</span>
 
   </div>
 <!-- color content -->
   <div class="box" style="background:#ced2ef">
     <span class="name">A Cute Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ced2ef</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(206, 210, 239)</span>
+<span class="hex"  onclick="copy(this)">#ced2ef</span>
+        <span class="rgba"  onclick="copy(this)">(206, 210, 239)</span>
 
   </div>
 
@@ -876,38 +878,38 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#c7b6d6">
     <span class="name">Strong Thistle</span>
-<span class="hex" data-clipboard-text="Text to copy.">#c7b6d6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(199, 182, 214)</span>
+<span class="hex"  onclick="copy(this)">#c7b6d6</span>
+        <span class="rgba"  onclick="copy(this)">(199, 182, 214)</span>
 
   </div>
 <!-- color content -->
   <div class="box" style="background:#fdf1f0">
     <span class="name">Very L. Peach</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fdf1f0</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(253, 241, 240)</span>
+<span class="hex"  onclick="copy(this)">#fdf1f0</span>
+        <span class="rgba"  onclick="copy(this)">(253, 241, 240)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#dfd5e8">
     <span class="name">Soft Thistle 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#dfd5e8</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(223, 213, 232)</span>
+<span class="hex"  onclick="copy(this)">#dfd5e8</span>
+        <span class="rgba"  onclick="copy(this)">(223, 213, 232)</span>
 
   </div>
 <!-- color content -->
   <div class="box" style="background:#fff5f5">
     <span class="name">So light Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fff5f5</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 245, 245)</span>
+<span class="hex"  onclick="copy(this)">#fff5f5</span>
+        <span class="rgba"  onclick="copy(this)">(255, 245, 245)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#f3f3fe">
     <span class="name">So light Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f3f3fe</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(243, 243, 254)</span>
+<span class="hex"  onclick="copy(this)">#f3f3fe</span>
+        <span class="rgba"  onclick="copy(this)">(243, 243, 254)</span>
 
   </div>
 
@@ -915,8 +917,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#decce5">
     <span class="name">Middle Thistle</span>
-<span class="hex" data-clipboard-text="Text to copy.">#decce5</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(222, 204, 229)</span>
+<span class="hex"  onclick="copy(this)">#decce5</span>
+        <span class="rgba"  onclick="copy(this)">(222, 204, 229)</span>
 
   </div>
 
@@ -924,8 +926,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#fcbad6">
     <span class="name">Clean Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fcbad6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(252, 186, 214)</span>
+<span class="hex"  onclick="copy(this)">#fcbad6</span>
+        <span class="rgba"  onclick="copy(this)">(252, 186, 214)</span>
 
   </div>
 
@@ -933,24 +935,24 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#bdc2e8">
     <span class="name">Strong Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#bdc2e8</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(189, 194, 232)</span>
+<span class="hex"  onclick="copy(this)">#bdc2e8</span>
+        <span class="rgba"  onclick="copy(this)">(189, 194, 232)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#e6dee9">
     <span class="name">Clean Thistle</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e6dee9</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(230, 222, 233)</span>
+<span class="hex"  onclick="copy(this)">#e6dee9</span>
+        <span class="rgba"  onclick="copy(this)">(230, 222, 233)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#feeaf2">
     <span class="name">Light Pink 3</span>
-<span class="hex" data-clipboard-text="Text to copy.">#feeaf2</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(254, 234, 242)</span>
+<span class="hex"  onclick="copy(this)">#feeaf2</span>
+        <span class="rgba"  onclick="copy(this)">(254, 234, 242)</span>
 
   </div>
 
@@ -958,32 +960,32 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#f5eff7">
     <span class="name">Light Light lilac</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f5eff7</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(245, 239, 247)</span>
+<span class="hex"  onclick="copy(this)">#f5eff7</span>
+        <span class="rgba"  onclick="copy(this)">(245, 239, 247)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ece6e6">
     <span class="name">A cute grey</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ece6e6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(236, 230, 230)</span>
+<span class="hex"  onclick="copy(this)">#ece6e6</span>
+        <span class="rgba"  onclick="copy(this)">(236, 230, 230)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#f9a1ba">
     <span class="name">Some Pink 4</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f9a1ba</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(249, 161, 186)</span>
+<span class="hex"  onclick="copy(this)">#f9a1ba</span>
+        <span class="rgba"  onclick="copy(this)">(249, 161, 186)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ffddbb">
     <span class="name">Light Orange</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffddbb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 221, 187)</span>
+<span class="hex"  onclick="copy(this)">#ffddbb</span>
+        <span class="rgba"  onclick="copy(this)">(255, 221, 187)</span>
 
   </div>
 
@@ -993,8 +995,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#dbe4eb">
     <span class="name">A Cute Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#dbe4eb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(219, 228, 235)</span>
+<span class="hex"  onclick="copy(this)">#dbe4eb</span>
+        <span class="rgba"  onclick="copy(this)">(219, 228, 235)</span>
 
   </div>
 
@@ -1002,25 +1004,25 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#ebdbea">
     <span class="name">A Cute Purple</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ebdbea</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(235, 219, 234)</span>
+<span class="hex"  onclick="copy(this)">#ebdbea</span>
+        <span class="rgba"  onclick="copy(this)">(235, 219, 234)</span>
 
   </div>
 
  <!-- color content -->
   <div class="box" style="background:#e0c3b8">
     <span class="name">A Cute Brown</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e0c3b8
+<span class="hex"  onclick="copy(this)">#e0c3b8
 </span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(224, 195, 184)</span>
+        <span class="rgba"  onclick="copy(this)">(224, 195, 184)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#fed0d1">
     <span class="name">Cute Peach 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fed0d1</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(254,208,209)</span>
+<span class="hex"  onclick="copy(this)">#fed0d1</span>
+        <span class="rgba"  onclick="copy(this)">(254,208,209)</span>
 
   </div>
 
@@ -1028,16 +1030,16 @@ Copied! <span>x</span>
  <!-- color content -->
   <div class="box" style="background:#98bdf7">
     <span class="name">Strong Blue 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#98bdf7</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(152, 189, 247)</span>
+<span class="hex"  onclick="copy(this)">#98bdf7</span>
+        <span class="rgba"  onclick="copy(this)">(152, 189, 247)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#fdcbc9">
     <span class="name">Cute Peach 3</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fdcbc9</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(253, 203, 201)</span>
+<span class="hex"  onclick="copy(this)">#fdcbc9</span>
+        <span class="rgba"  onclick="copy(this)">(253, 203, 201)</span>
 
   </div>
 
@@ -1046,24 +1048,24 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#f0889b">
     <span class="name">Strong Peach</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f0889b</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(240, 136, 155)</span>
+<span class="hex"  onclick="copy(this)">#f0889b</span>
+        <span class="rgba"  onclick="copy(this)">(240, 136, 155)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#f2d2dd">
     <span class="name">Clean Pink 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f2d2dd</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(242, 210, 221)</span>
+<span class="hex"  onclick="copy(this)">#f2d2dd</span>
+        <span class="rgba"  onclick="copy(this)">(242, 210, 221)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background: #afdcd5">
     <span class="name">Popsicle Green</span>
-<span class="hex" data-clipboard-text="Text to copy."> #afdcd5</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(175, 220, 213)</span>
+<span class="hex"  onclick="copy(this)"> #afdcd5</span>
+        <span class="rgba"  onclick="copy(this)">(175, 220, 213)</span>
 
   </div>
 
@@ -1073,24 +1075,24 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background: #ffdfcd">
     <span class="name">Light Orange 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffdfcd</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 223, 205)</span>
+<span class="hex"  onclick="copy(this)">#ffdfcd</span>
+        <span class="rgba"  onclick="copy(this)">(255, 223, 205)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background: #fdedbd">
     <span class="name">Light Orange 3</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fdedbd</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(253, 237, 189)</span>
+<span class="hex"  onclick="copy(this)">#fdedbd</span>
+        <span class="rgba"  onclick="copy(this)">(253, 237, 189)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background: #ffc1af">
     <span class="name">Some Orange</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffc1af</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 193, 175)</span>
+<span class="hex"  onclick="copy(this)">#ffc1af</span>
+        <span class="rgba"  onclick="copy(this)">(255, 193, 175)</span>
 
   </div>
 
@@ -1098,8 +1100,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background: #ff9da6">
     <span class="name">Strong Pearch 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ff9da6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 157, 166)</span>
+<span class="hex"  onclick="copy(this)">#ff9da6</span>
+        <span class="rgba"  onclick="copy(this)">(255, 157, 166)</span>
 
   </div>
  
@@ -1107,8 +1109,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background: #ffd198">
     <span class="name">Light Orange 4</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffd198</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 209, 152)</span>
+<span class="hex"  onclick="copy(this)">#ffd198</span>
+        <span class="rgba"  onclick="copy(this)">(255, 209, 152)</span>
 
   </div>
 
@@ -1117,8 +1119,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background: #ffb3a0">
     <span class="name">Peach Orange</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffb3a0</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 179, 160)</span>
+<span class="hex"  onclick="copy(this)">#ffb3a0</span>
+        <span class="rgba"  onclick="copy(this)">(255, 179, 160)</span>
 
   </div>
  
@@ -1127,32 +1129,32 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background: #ffc7c7">
     <span class="name">Peach Orange 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffc7c7</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 199, 199)</span>
+<span class="hex"  onclick="copy(this)">#ffc7c7</span>
+        <span class="rgba"  onclick="copy(this)">(255, 199, 199)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background: #ff7373">
     <span class="name">Strong Red</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ff7373</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 115, 115)</span>
+<span class="hex"  onclick="copy(this)">#ff7373</span>
+        <span class="rgba"  onclick="copy(this)">(255, 115, 115)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background: #e1dbf1">
     <span class="name">Purpleish Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e1dbf1</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(225, 219, 241)</span>
+<span class="hex"  onclick="copy(this)">#e1dbf1</span>
+        <span class="rgba"  onclick="copy(this)">(225, 219, 241)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background: #fee3ec">
     <span class="name">Cute Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fee3ec</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(254, 227, 236)</span>
+<span class="hex"  onclick="copy(this)">#fee3ec</span>
+        <span class="rgba"  onclick="copy(this)">(254, 227, 236)</span>
 
   </div>
  
@@ -1161,16 +1163,16 @@ Copied! <span>x</span>
  <!-- color content -->
   <div class="box" style="background: #ffb7b7">
     <span class="name">Peach Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffb7b7</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 183, 183)</span>
+<span class="hex"  onclick="copy(this)">#ffb7b7</span>
+        <span class="rgba"  onclick="copy(this)">(255, 183, 183)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background: #f8f8f8">
     <span class="name">Light Grey</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f8f8f8</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(248, 248, 248)</span>
+<span class="hex"  onclick="copy(this)">#f8f8f8</span>
+        <span class="rgba"  onclick="copy(this)">(248, 248, 248)</span>
 
   </div>
 
@@ -1178,8 +1180,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background: #dcecf5">
     <span class="name">Cute Blue 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#dcecf5</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(220, 236, 245)</span>
+<span class="hex"  onclick="copy(this)">#dcecf5</span>
+        <span class="rgba"  onclick="copy(this)">(220, 236, 245)</span>
 
   </div>
 
@@ -1187,24 +1189,24 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#f9e7dc">
     <span class="name">Light Orange 5</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f9e7dc</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(249, 231, 220)</span>
+<span class="hex"  onclick="copy(this)">#f9e7dc</span>
+        <span class="rgba"  onclick="copy(this)">(249, 231, 220)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ffe8eb">
     <span class="name">So Light Pink 3</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffe8eb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 232, 235)</span>
+<span class="hex"  onclick="copy(this)">#ffe8eb</span>
+        <span class="rgba"  onclick="copy(this)">(255, 232, 235)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ffe1e1">
     <span class="name">Light Pink 4</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffe1e1</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 225, 225)</span>
+<span class="hex"  onclick="copy(this)">#ffe1e1</span>
+        <span class="rgba"  onclick="copy(this)">(255, 225, 225)</span>
 
   </div>
 
@@ -1212,40 +1214,40 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#edd6e6">
     <span class="name">A Cute Purple 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#edd6e6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(237, 214, 230)</span>
+<span class="hex"  onclick="copy(this)">#edd6e6</span>
+        <span class="rgba"  onclick="copy(this)">(237, 214, 230)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ffe9f1">
     <span class="name">Light Pink 5</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffe9f1</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 233, 241)</span>
+<span class="hex"  onclick="copy(this)">#ffe9f1</span>
+        <span class="rgba"  onclick="copy(this)">(255, 233, 241)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#ffb6cf">
     <span class="name">Popsicle Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffb6cf</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 182, 207)</span>
+<span class="hex"  onclick="copy(this)">#ffb6cf</span>
+        <span class="rgba"  onclick="copy(this)">(255, 182, 207)</span>
 
   </div>
 
  <!-- color content -->
   <div class="box" style="background:#ffefff">
     <span class="name">Light Light Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffefff</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 239, 255)</span>
+<span class="hex"  onclick="copy(this)">#ffefff</span>
+        <span class="rgba"  onclick="copy(this)">(255, 239, 255)</span>
 
   </div>
  
  <!-- color content -->
   <div class="box" style="background:#ffefeb">
     <span class="name">Light Peach</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffefeb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 239, 235)</span>
+<span class="hex"  onclick="copy(this)">#ffefeb</span>
+        <span class="rgba"  onclick="copy(this)">(255, 239, 235)</span>
 
   </div>
 
@@ -1253,8 +1255,8 @@ Copied! <span>x</span>
  <!-- color content -->
   <div class="box" style="background:#f6f6f6">
     <span class="name">Light Grey</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f6f6f6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(246, 246, 246)</span>
+<span class="hex"  onclick="copy(this)">#f6f6f6</span>
+        <span class="rgba"  onclick="copy(this)">(246, 246, 246)</span>
 
   </div>
 
@@ -1262,24 +1264,24 @@ Copied! <span>x</span>
  <!-- color content -->
   <div class="box" style="background:#f5c6b6">
     <span class="name">Brown Orange</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f5c6b6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(245, 198, 182)</span>
+<span class="hex"  onclick="copy(this)">#f5c6b6</span>
+        <span class="rgba"  onclick="copy(this)">(245, 198, 182)</span>
 
   </div>
 
  <!-- color content -->
   <div class="box" style="background:#e8f0fe">
     <span class="name">Light Blue Other</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e8f0fe</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(232, 240, 254)</span>
+<span class="hex"  onclick="copy(this)">#e8f0fe</span>
+        <span class="rgba"  onclick="copy(this)">(232, 240, 254)</span>
 
   </div>
 
 <!-- color content -->
   <div class="box" style="background:#fce4ed">
     <span class="name">Light Other Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fce4ed</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(252, 228, 237)</span>
+<span class="hex"  onclick="copy(this)">#fce4ed</span>
+        <span class="rgba"  onclick="copy(this)">(252, 228, 237)</span>
 
   </div> 
  
@@ -1287,16 +1289,16 @@ Copied! <span>x</span>
  <!-- color content -->
   <div class="box" style="background:#fbc1d5">
     <span class="name">Icecream Pink 2</span>
-<span class="hex" data-clipboard-text="Text to copy.">#fbc1d5</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(251, 193, 213)</span>
+<span class="hex"  onclick="copy(this)">#fbc1d5</span>
+        <span class="rgba"  onclick="copy(this)">(251, 193, 213)</span>
 
   </div> 
 
 <!-- color content -->
   <div class="box" style="background:#faa2c1">
     <span class="name">Dark Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#faa2c1</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(250, 162, 193)</span>
+<span class="hex"  onclick="copy(this)">#faa2c1</span>
+        <span class="rgba"  onclick="copy(this)">(250, 162, 193)</span>
 
   </div> 
 
@@ -1304,8 +1306,8 @@ Copied! <span>x</span>
 <!-- color content -->
   <div class="box" style="background:#f783ac">
     <span class="name">Darker Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f783ac</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(247, 131, 172)</span>
+<span class="hex"  onclick="copy(this)">#f783ac</span>
+        <span class="rgba"  onclick="copy(this)">(247, 131, 172)</span>
 
   </div> 
 
@@ -1313,16 +1315,16 @@ Copied! <span>x</span>
  <!-- color content -->
 <div class="box" style="background:#e7c7c4">
 	<span class="name">Brown Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e7c7c4</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(231, 199, 196)</span>
+<span class="hex"  onclick="copy(this)">#e7c7c4</span>
+        <span class="rgba"  onclick="copy(this)">(231, 199, 196)</span>
 
   </div>
 
 <!-- color content -->
 <div class="box" style="background:#f5aab9">
 	<span class="name">Strong Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f5aab9</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(245, 170, 185)</span>
+<span class="hex"  onclick="copy(this)">#f5aab9</span>
+        <span class="rgba"  onclick="copy(this)">(245, 170, 185)</span>
 
   </div>
 
@@ -1331,32 +1333,32 @@ Copied! <span>x</span>
 	<!-- color content -->
 <div class="box" style="background:#feeaeb">
 	<span class="name">Light Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#feeaeb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(254, 234, 235)</span>
+<span class="hex"  onclick="copy(this)">#feeaeb</span>
+        <span class="rgba"  onclick="copy(this)">(254, 234, 235)</span>
 
   </div>
 
 <!-- color content -->
 <div class="box" style="background:#f1f5f6">
 	<span class="name">Light Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f1f5f6</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(241, 245, 246)</span>
+<span class="hex"  onclick="copy(this)">#f1f5f6</span>
+        <span class="rgba"  onclick="copy(this)">(241, 245, 246)</span>
 
   </div>
  
  <!-- color content -->
 <div class="box" style="background:#f8eeee">
 	<span class="name">Light Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f8eeee</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(248, 238, 238)</span>
+<span class="hex"  onclick="copy(this)">#f8eeee</span>
+        <span class="rgba"  onclick="copy(this)">(248, 238, 238)</span>
 
   </div>
 
 <!-- color content -->
 <div class="box" style="background:#ffcc9d">
 	<span class="name">Other Orange</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ffcc9d</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(255, 204, 157)</span>
+<span class="hex"  onclick="copy(this)">#ffcc9d</span>
+        <span class="rgba"  onclick="copy(this)">(255, 204, 157)</span>
 
   </div>
 
@@ -1364,24 +1366,24 @@ Copied! <span>x</span>
 <!-- color content -->
 <div class="box" style="background:#f0718c">
 	<span class="name">Strong Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f0718c</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(240, 113, 140)</span>
+<span class="hex"  onclick="copy(this)">#f0718c</span>
+        <span class="rgba"  onclick="copy(this)">(240, 113, 140)</span>
 
   </div>
 	
 	<!-- color content -->
 <div class="box" style="background:#f7b9ce">
 	<span class="name">Popsicle Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#f7b9ce</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(247, 185, 206)</span>
+<span class="hex"  onclick="copy(this)">#f7b9ce</span>
+        <span class="rgba"  onclick="copy(this)">(247, 185, 206)</span>
 
   </div>
 	
 		<!-- color content -->
 <div class="box" style="background:#ed95ad">
 	<span class="name">Strong Pink</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ed95ad</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(237, 149, 173)</span>
+<span class="hex"  onclick="copy(this)">#ed95ad</span>
+        <span class="rgba"  onclick="copy(this)">(237, 149, 173)</span>
 
   </div>
 
@@ -1389,38 +1391,38 @@ Copied! <span>x</span>
 	<!-- color content -->
 <div class="box" style="background:#ebdbef">
 	<span class="name">Cute Lilac</span>
-<span class="hex" data-clipboard-text="Text to copy.">#ebdbef</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(235, 219, 239)</span>
+<span class="hex"  onclick="copy(this)">#ebdbef</span>
+        <span class="rgba"  onclick="copy(this)">(235, 219, 239)</span>
 
   </div>
 	  
 	  	<!-- color content -->
 <div class="box" style="background:#e4f0fb">
 	<span class="name">Cute Blue</span>
-<span class="hex" data-clipboard-text="Text to copy.">#e4f0fb</span>
-        <span class="rgba" data-clipboard-text="Text to copy.">(228, 240, 251)</span>
+<span class="hex"  onclick="copy(this)">#e4f0fb</span>
+        <span class="rgba"  onclick="copy(this)">(228, 240, 251)</span>
 
   </div>
 	
 <!-- colors end -->
 </div>
 	<script>
-$(document).ready(function() {
- 
- $('.hex, .rgba').click(function(){
-        $(this).CopyToClipboard();
-    });
+  function copy(that){
+var inp = document.createElement('input');
+var pop = document.querySelector('.all');
+document.body.appendChild(inp)
+inp.value = that.textContent
+inp.select();
+document.execCommand('copy');
+inp.remove();
+pop.classList.add('opened');
+}
 
- $('.hex, .rgba').click(function(){
- $('.all, .copied').fadeIn(1).css("display", "flex");
-
-});
- $('.copied span, .all').click(function(){
- $('.copied, .all').fadeOut(1);
-
-});
-
-});
+var popClose = document.querySelector('.all');
+var close = document.querySelector('.close, .all');
+close.onclick = function() {
+popClose.classList.remove('opened');
+}
 </script>
    
    </body>
