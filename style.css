@@ -88,18 +88,17 @@ background:thistle;
 
 }
 
-.all{
+ .all{
 position:fixed;
 top:0;
 left:0;
 background:rgba(230, 230, 250,0.5);
 width:100%;
 height:100%;
-  z-index:1;
- 
- display:none;
+  z-index:1; 
 justify-content:center;
 align-items:center;
+display:none;
 }
 .copied{
 padding:2em;
@@ -125,6 +124,10 @@ padding:.5em .6em;
 cursor:pointer;
 margin:0 .3em;
 }
+
+ .opened.all{
+ display:flex;
+ }
 @media(max-width:320px){
  .copied{
   max-height:170px;
