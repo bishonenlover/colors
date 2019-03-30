@@ -40,14 +40,10 @@ justify-content:center;
 }
 .rgba{
   font-size:.8em;
-  -webkit-user-select:all;
-user-select:all;
   padding:2%;
 cursor:pointer;
 }
 .hex{
--webkit-user-select:all;
-user-select:all;
   text-align:center;
   padding:2%;
   font-size:.9em;
@@ -129,11 +125,10 @@ margin:0 .3em;
  .opened.all{
  display:flex;
  }
-@media(max-width:500px){
- .hex:focus, .rgb:focus {
-  outline:none;
- background: pink;
-    color: #ffffff;
+@media(min-width:500px){
+ .hex, .rgba{
+    -webkit-user-select:all;
+user-select:all;
  }
 }
 @media(max-width:320px){
