@@ -53,6 +53,7 @@ user-select:all;
   font-size:.9em;
 cursor:pointer;
 }
+
  
 ::selection {
     background: pink;
@@ -128,8 +129,16 @@ margin:0 .3em;
  .opened.all{
  display:flex;
  }
+@media(max-width:500px){
+ .hex:focus, .rgb:focus {
+  outline:none;
+ background: pink;
+    color: #ffffff;
+ }
+}
 @media(max-width:320px){
  .copied{
   max-height:170px;
 }
 }
+
