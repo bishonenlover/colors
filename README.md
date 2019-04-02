@@ -7,3 +7,5 @@ A simple grid page with copyable colors hexadecimal and rgb colors.<p>
   ------ ☆ ------
   
   Credits for the <b>copy to clipboard</b> code to <a href="https://stackoverflow.com/a/45071444" target="_blank">this person on stackoverflow</a>. <p>I've just added a kind of popup message on my own, telling the color was copied.
+
+<h1><a href="https://bishonenlover.github.io/myfavecolors/">View</a></h1>
