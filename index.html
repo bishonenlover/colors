@@ -27,28 +27,28 @@ cursor:default;
   width:80%;
   margin:3em auto;
   display:grid;
- grid-gap:10px;
-  grid-template-columns:repeat(auto-fit, 120px);
+ grid-gap:1.2em;
+  grid-template-columns:repeat(auto-fit, 125px);
    align-items:center;
 justify-content:center;
     
 }
 .box{
-  width:120px;
-  height:120px;
+  width:125px;
+  height:125px;
   position:relative;
-  padding:2%;
+  padding:.3em;
   display:flex;
   justify-content:center;
   align-items:center;
   flex-direction:column;
-   
+ 
 }
 .name{
  font-size:1em;
 }
 .rgba{
-  font-size:.8em;
+  font-size:.7em;
   padding:2%;
 cursor:pointer;
      -webkit-user-select:all;
@@ -65,37 +65,36 @@ user-select:all;
 
  
 ::selection {
-    background: pink;
+    background: #c2d6f0;
     color: #ffffff;
 }
 ::-webkit-scrollbar{
-  width:9px;
+  width:10px;
   height:0;
-  border:4px solid #ededfb;
-  background:pink;
+border:4px solid #ededfb;
+background:#fdb8c0;
 }
 ::-webkit-scrollbar-thumb{
-  background:pink;
+ background:#fdb8c0;
 }
 
 .info{
   position:fixed;
-  top:5px;
-  right:5px;
- transition:1s;
+  top:1em;
+  right:1em;
+ transition:all ease-in-out .3s;
 z-index:4;
 }
 .info a{
   text-decoration:none;
   color:#444;
- padding:.5em 1em;
-  font-size:.8em;
- 
+ padding:1em;
+  font-size:.9em;
+ font-family:'Roboto Condensed';
 }
 .info:hover{
-background:thistle;
- transition:1s;
-
+background:lavender;
+box-shadow:0 1px 1px 0 rgba(250,250,250,0.7), inset 0 1px 1px 0 rgba(0,0,0,0.08);
 }
 
  .all{
@@ -108,7 +107,7 @@ height:100%;
   z-index:1; 
 justify-content:center;
 align-items:center;
-display:none;
+ display:none;
 }
 .copied{
 padding:2em;
@@ -130,9 +129,9 @@ display:flex;
  justify-content:center;
 align-items:center;
 background:pink;
-padding:.5em .6em;
 cursor:pointer;
 margin:0 .3em;
+ 
 }
 
  .opened.all{
@@ -1629,6 +1628,25 @@ Copied! <span>x</span>
         <span class="rgba"  onclick="copy(this)">(255, 212, 210)</span>
 
   </div>
+
+		<!-- color content -->
+<div class="box" style="background:#fdb8c0">
+	<span class="name">Other Pink~</span>
+<span class="hex"  onclick="copy(this)">#fdb8c0</span>
+        <span class="rgba"  onclick="copy(this)">(253, 184, 192)</span>
+
+  </div>
+
+
+		<!-- color content -->
+<div class="box" style="background:#ffeef0">
+	<span class="name">Light Pink~</span>
+<span class="hex"  onclick="copy(this)">#ffeef0</span>
+        <span class="rgba"  onclick="copy(this)">(255, 238, 240)</span>
+
+  </div>
+
+
 	
 <!-- colors end -->
 </div>
