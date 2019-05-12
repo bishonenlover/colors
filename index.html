@@ -1,4 +1,3 @@
-
 <!DOCTYPE html><!--
 
 
@@ -84,7 +83,7 @@ by bishonenlover
     ::-webkit-scrollbar {
         width: 10px;
         height: 0;
-        border: 4px solid  #f9f9f9;
+        border: 4px solid #f9f9f9;
         background: #fdb8c0;
     }
     
@@ -110,7 +109,7 @@ by bishonenlover
     }
     
     .info:hover {
-        background: rgba(0,0,0,0.02);
+        background: rgba(0, 0, 0, 0.02);
         box-shadow: 0 1px 1px 0 rgba(250, 250, 250, 0.7), inset 0 1px 1px 0 rgba(0, 0, 0, 0.08);
     }
     /* pop up 'copied' */
@@ -323,17 +322,13 @@ overflow:hidden;
             <div class="rgba" onclick="copy(this)">243, 99, 154</div>
         </div>
 
-
- 
-        
-                <!-- color content -->
+        <!-- color content -->
         <div class="box">
             <div class="color" style="background:#dedeef"></div>
             <div class="hex" onclick="copy(this)">#dedeef</div>
             <div class="rgba" onclick="copy(this)">222, 222, 239</div>
         </div>
 
-        
         <!-- color content -->
         <div class="box">
             <div class="color" style="background:#ffdddd"></div>
@@ -361,8 +356,6 @@ overflow:hidden;
             <div class="hex" onclick="copy(this)">#ffd4c1</div>
             <div class="rgba" onclick="copy(this)">255, 212, 193</div>
         </div>
-  
-    
 
         <!-- colors end -->
     </div>
@@ -373,20 +366,24 @@ overflow:hidden;
         function copy(that) {
             var inp = document.createElement('input');
             var pop = document.querySelector('.all');
+            var close = document.querySelector('.xx');
+
             document.body.appendChild(inp)
             inp.value = that.textContent
             inp.select();
             document.execCommand('copy');
             inp.remove();
             pop.classList.add('opened');
-            //document.body.classList.add('fix'); //makes the body fixed when the popup appears
-        }
 
-        var popClose = document.querySelector('.all');
-        var close = document.querySelector('.close, .all');
-        close.onclick = function() {
-            popClose.classList.remove('opened');
-            //document.body.classList.remove('fix');
+            close.addEventListener('click', function() {
+                pop.classList.remove('opened');
+            });
+
+            window.addEventListener('click', function(e) {
+                if (e.target == pop) {
+                    pop.classList.remove('opened');
+                }
+            });
         }
     </script>
 
