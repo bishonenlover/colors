@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html><!--
 
 
@@ -26,16 +27,25 @@ by bishonenlover
         background-color: #f9f9f9;
         cursor: default;
     }
-    
+    .header{
+    width:100%;
+    height:30px;
+    background:#fdb8c0;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:2;
+    }
     .container {
-        width: 80%;
         margin: 3em auto;
+        margin-top:5em;
         display: grid;
         grid-gap: 2em;
         grid-template-columns: repeat(auto-fit, 100px);
         align-items: center;
         justify-content: center;
         max-width: 800px;
+        width:80%;
     }
     /* color boxes */
     
@@ -95,10 +105,11 @@ by bishonenlover
     
     .info {
         position: fixed;
-        top: 1em;
-        right: 1em;
+        top: 40px;
+        right: 10px;
         transition: all ease-in-out .3s;
         z-index: 4;
+ 
     }
     
     .info a {
@@ -176,6 +187,7 @@ overflow:hidden;
 </style>
 
 <body>
+<div class="header"></div>
     <!-- go back -->
     <div class="info">
         <a href="https://todorokiscute.tumblr.com" target="_blank">Go Back!</a>
