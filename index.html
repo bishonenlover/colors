@@ -33,6 +33,7 @@ by bishonenlover
     top:0;
     left:0;
     z-index:2;
+    transition:all .1s;
     }
     .container {
         margin: 3em auto;
@@ -169,6 +170,13 @@ by bishonenlover
     .opened.all {
         visibility: visible;
         opacity: 1;
+    }
+    
+    .hide{
+    transform:translateY(-50px);
+    }
+    .info-scroll{
+    top:1em;
     }
     /* makes the body fixed 
 .fix{
@@ -495,6 +503,23 @@ overflow:hidden;
                     pop.classList.remove('opened');
                 }
             });
+        }
+        
+        window.addEventListener('scroll', hideBar);
+        function hideBar(){
+        var bar = document.querySelector('.header');
+        var y = window.scrollY;
+        var info = document.querySelector('.info');
+        
+        bar.classList.add('hide');
+        if(y == 0){
+        bar.classList.remove('hide');
+       
+        } else if(y >10){
+         info.classList.add('info-scroll');
+        }else{
+        info.classList.remove('info-scroll');
+        }
         }
     </script>
 
